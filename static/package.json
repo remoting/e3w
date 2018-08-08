@@ -1,4 +1,5 @@
 {
+  "name": "aa",
   "devDependencies": {
     "babel-core": "^6.14.0",
     "babel-loader": "^6.2.5",
@@ -21,6 +22,7 @@
   "scripts": {
     "build": "./node_modules/webpack/bin/webpack.js",
     "watch": "npm run build -- --watch",
-    "publish": "NODE_ENV=production npm run build -- --optimize-minimize"
-  }
+    "bbbbb": "NODE_ENV=production npm run build -- --optimize-minimize"
+  },
+  "version": "1.0.1"
 }

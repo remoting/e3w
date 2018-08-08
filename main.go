@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"github.com/coreos/etcd/version"
 	"github.com/gin-gonic/gin"
-	"github.com/soyking/e3w/conf"
-	"github.com/soyking/e3w/e3ch"
-	"github.com/soyking/e3w/routers"
+	"github.com/remoting/e3w/conf"
+	"github.com/remoting/e3w/e3ch"
+	"github.com/remoting/e3w/routers"
 	"os"
 )
 

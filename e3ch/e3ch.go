@@ -5,7 +5,7 @@ import (
 	"github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/pkg/transport"
 	"github.com/soyking/e3ch"
-	"github.com/soyking/e3w/conf"
+	"github.com/remoting/e3w/conf"
 )
 
 func NewE3chClient(config *conf.Config) (*client.EtcdHRCHYClient, error) {
